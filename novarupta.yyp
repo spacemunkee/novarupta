@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "4b0b29d2-a4c5-4358-9886-b7006c18f94c",
+            "Value": {
+                "id": "d68a27e9-9fa9-478d-88cc-0ec4dafe55e0",
+                "resourcePath": "scripts\\player_death\\player_death.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "4e69d5c2-bf9e-42e3-b023-369230ff32c4",
+            "Value": {
+                "id": "d0435e3c-5e4e-4b94-9a5b-cd03017b5886",
+                "resourcePath": "views\\4e69d5c2-bf9e-42e3-b023-369230ff32c4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "559af723-ab2c-4dd1-a089-8e0843c47e4a",
             "Value": {
                 "id": "ea49ae21-3f26-4a2c-9620-439243d30d49",
@@ -79,10 +95,26 @@
             }
         },
         {
+            "Key": "5e28c1b3-f0d0-43f7-9bac-176e875aad6a",
+            "Value": {
+                "id": "cde3345a-8f37-4386-a81e-bb8a16d684f0",
+                "resourcePath": "sprites\\s_enemy\\s_enemy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5ee224e4-170a-46dc-a647-dec30aa857ab",
             "Value": {
                 "id": "683ca5d5-e651-40a6-a175-581a83f13ed6",
                 "resourcePath": "objects\\o_player\\o_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6c593bdd-2724-4720-9a93-94b5cdc33605",
+            "Value": {
+                "id": "00f70617-869d-4c09-8133-3cff4da83764",
+                "resourcePath": "objects\\o_enemy\\o_enemy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -92,6 +124,14 @@
                 "id": "7c669eca-555b-406a-9145-ae6e4d294130",
                 "resourcePath": "scripts\\check_input\\check_input.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "74acb731-adb5-425a-bb56-b5d3e9930f22",
+            "Value": {
+                "id": "e1392897-49e4-4420-803a-53f6df3d5fdc",
+                "resourcePath": "views\\74acb731-adb5-425a-bb56-b5d3e9930f22.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -123,6 +163,14 @@
             "Value": {
                 "id": "c21dd48e-661c-43f1-b238-3e5ec863b138",
                 "resourcePath": "views\\a18c783f-4585-42a5-a887-769993bb70ef.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a366b5b8-3e8b-4e22-b541-e3f98bcbea94",
+            "Value": {
+                "id": "c4efd9ac-6e2f-4342-948a-259358dc0876",
+                "resourcePath": "views\\a366b5b8-3e8b-4e22-b541-e3f98bcbea94.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -215,6 +263,22 @@
             }
         },
         {
+            "Key": "dac79993-29e6-40bf-9536-638474baeb69",
+            "Value": {
+                "id": "fc1edd07-ee24-450c-af69-9f4286087401",
+                "resourcePath": "views\\dac79993-29e6-40bf-9536-638474baeb69.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "dcfd1309-5c83-4a71-a68d-c6225888f25a",
+            "Value": {
+                "id": "75aec0e5-c37f-42aa-bf58-9b970079f5ac",
+                "resourcePath": "views\\dcfd1309-5c83-4a71-a68d-c6225888f25a.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "de25d23b-13e8-480b-852b-1642761494ae",
             "Value": {
                 "id": "c57ff69e-92b6-4419-9e9b-7bc0414494e8",
@@ -228,14 +292,6 @@
                 "id": "1ab38a76-0a24-4f5d-97e2-25b3f0dcb874",
                 "resourcePath": "sprites\\s_key\\s_key.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ebda15d2-72fe-4bc3-8d98-734c1dabcd33",
-            "Value": {
-                "id": "fbfeaa5b-32f5-46e2-962e-89f728cb7155",
-                "resourcePath": "scripts\\macros\\macros.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -273,7 +329,7 @@
     ],
     "script_order": [
         "72604943-7658-4162-991f-e680a56bdcd2",
-        "ebda15d2-72fe-4bc3-8d98-734c1dabcd33"
+        "4b0b29d2-a4c5-4358-9886-b7006c18f94c"
     ],
     "tutorial": ""
 }

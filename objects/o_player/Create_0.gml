@@ -7,7 +7,8 @@ enum state {
 	move_left,
 	move_up,
 	move_down,
-	attack
+	attack,
+	death
 }
 
 state = state.idle
