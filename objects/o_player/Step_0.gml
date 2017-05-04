@@ -1,7 +1,10 @@
 check_input()
 
 if(left) {
-	x -= move_speed
+	new_x = x - move_speed
+	if(tile_) {
+		x = new_x
+	}
 }
 
 if(right) {
