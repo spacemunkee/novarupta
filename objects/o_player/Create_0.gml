@@ -1,4 +1,4 @@
-move_speed = 4
+move_speed = 2
 
 // state stuff to be used later
 enum state {
