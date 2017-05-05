@@ -1,4 +1,5 @@
 move_speed = 2
+player_health = 5;
 
 // state stuff to be used later
 enum state {

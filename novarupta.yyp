@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "205aee72-96eb-4a18-be46-c4b25af0f0f9",
+            "Value": {
+                "id": "e772e6b8-27b6-40f2-b7d8-be748b1bcc8f",
+                "resourcePath": "scripts\\player_attack\\player_attack.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "302b6e5b-c921-4b9d-9b64-bfad77241cd1",
             "Value": {
                 "id": "8ac16d54-fba5-40cd-a1e6-c27ce1229f6c",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "7c669eca-555b-406a-9145-ae6e4d294130",
                 "resourcePath": "scripts\\check_input\\check_input.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "730258a2-a3c5-4a9b-b875-d91ad7c1abc2",
+            "Value": {
+                "id": "fc6032d5-e048-46b1-bf83-0815b4695cd2",
+                "resourcePath": "scripts\\enemy_attack\\enemy_attack.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -325,11 +341,22 @@
                 "resourcePath": "views\\fc1964b9-ca9c-4384-aa92-bd4f6af8bfa1.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fc2420bf-6f9e-4c86-9ee8-8ea729fb4522",
+            "Value": {
+                "id": "6d59374f-1bd5-426b-853d-552a3f378658",
+                "resourcePath": "scripts\\enemy_death\\enemy_death.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
         "72604943-7658-4162-991f-e680a56bdcd2",
-        "4b0b29d2-a4c5-4358-9886-b7006c18f94c"
+        "4b0b29d2-a4c5-4358-9886-b7006c18f94c",
+        "205aee72-96eb-4a18-be46-c4b25af0f0f9",
+        "fc2420bf-6f9e-4c86-9ee8-8ea729fb4522",
+        "730258a2-a3c5-4a9b-b875-d91ad7c1abc2"
     ],
     "tutorial": ""
 }
