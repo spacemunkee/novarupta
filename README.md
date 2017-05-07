@@ -1,4 +1,3 @@
 # novarupta
-A game.
 
-Need to fill this in.
+A Cabal Games production being made by Lack and Spacemunkee.
