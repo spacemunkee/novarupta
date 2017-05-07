@@ -1,6 +1,7 @@
 move_speed = 2
 player_health = 5;
 keys = 0;
+coins = 0;
 
 // state stuff to be used later
 enum state {

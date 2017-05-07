@@ -15,4 +15,3 @@ if(up) {
 if(down) {
 	y += move_speed
 }
-
