@@ -32,4 +32,4 @@ if(keyboard_check(vk_right)) {
 	}
 }
 
-check_collisions(id, dx, dy, sprite_width / 2, sprite_width / 2, sprite_width / 2, sprite_width / 2)
+check_collisions(id, dx, dy, sprite_yoffset, sprite_xoffset, sprite_yoffset, sprite_xoffset)

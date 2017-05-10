@@ -23,4 +23,4 @@ enum state {
 	death
 }
 
-state = state.idle
+player_state = state.idle
