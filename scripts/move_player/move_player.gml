@@ -23,13 +23,13 @@ if(keyboard_check(vk_right)) {
 		dir = DIR_DOWN
 		dx = 0
 		dy = move_speed
-	} else {
-		if(dir != DIR_STOP) {
-			dir = DIR_STOP
-			dx = 0
-			dy = 0
-		}
+	} 
+} else {
+	if(dir != DIR_STOP) {
+		dir = DIR_STOP
+		dx = 0
+		dy = 0
 	}
 }
 
-check_collisions(id, dx, dy, 8, 8, 8, 8)
+check_collisions(id, dx, dy, sprite_width / 2, sprite_width / 2, sprite_width / 2, sprite_width / 2)

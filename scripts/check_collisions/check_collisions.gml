@@ -43,8 +43,8 @@ with(_objectid) {
 	}
 	
 	if(dir = DIR_DOWN) {
-		var tx1 = (x + _right) >> TILE_SHIFT
-		var tx2 = (x + _left) >> TILE_SHIFT
+		var tx1 = (x + (_right - 4)) >> TILE_SHIFT
+		var tx2 = (x - (_left - 4)) >> TILE_SHIFT
 		var ty = (y + _bottom) >> TILE_SHIFT
 		
 		var tile1 = tilemap_get(collision_map, tx1, ty) & tile_index_mask
@@ -56,15 +56,15 @@ with(_objectid) {
 	}
 	
 	if(dir = DIR_UP) {
-		var tx1 = (x + _right) >> TILE_SHIFT
-		var tx2 = (x + _left) >> TILE_SHIFT
-		var ty = (y - _bottom) >> TILE_SHIFT
+		var tx1 = (x + (_right - 4)) >> TILE_SHIFT
+		var tx2 = (x - (_left - 4)) >> TILE_SHIFT
+		var ty = (y - _top) >> TILE_SHIFT
 		
 		var tile1 = tilemap_get(collision_map, tx1, ty) & tile_index_mask
 		var tile2 = tilemap_get(collision_map, tx2, ty) & tile_index_mask
 		
 		if(tile1 != 0 || tile2 != 0) {
-			y = (ty << TILE_SHIFT) + TILE_SIZE+_top + 1;
+			y = (ty << TILE_SHIFT) + TILE_SIZE + _top + 1;
 
 		}
 	}
