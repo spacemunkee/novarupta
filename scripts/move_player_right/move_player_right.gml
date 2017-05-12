@@ -1,5 +1,7 @@
 /// move_player_right
 
+if(sprite_index != s_player) sprite_index = s_player
+
 if(dir != DIR_RIGHT) {
 	dir = DIR_RIGHT
 	dx = move_speed

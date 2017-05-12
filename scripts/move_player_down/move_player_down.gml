@@ -1,5 +1,8 @@
 /// move_player_down()
 
+if(sprite_index != s_player) sprite_index = s_player
+
+
 if(dir != DIR_DOWN) {
 	dir = DIR_DOWN
 	dx = 0
