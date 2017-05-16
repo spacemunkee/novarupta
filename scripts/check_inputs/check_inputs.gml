@@ -1,4 +1,4 @@
- /// check_inputs()
+/// check_inputs()
 // only to be acted on o_player
 
 var key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));

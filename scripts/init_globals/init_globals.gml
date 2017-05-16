@@ -6,4 +6,10 @@
 #macro DIR_LEFT		3
 #macro DIR_RIGHT	4
 
+#macro FACE_RIGHT	0
+#macro FACE_UP		90
+#macro FACE_LEFT	180
+#macro FACE_DOWN	270
+
+
 

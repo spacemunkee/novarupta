@@ -4,6 +4,7 @@ if(sprite_index != s_player) sprite_index = s_player;
 
 if(dir != DIR_RIGHT) {
 	dir = DIR_RIGHT;
+	image_angle = FACE_RIGHT;
 	dx = move_speed;
 	dy = 0;
 }
