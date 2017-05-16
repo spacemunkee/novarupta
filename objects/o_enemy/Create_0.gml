@@ -8,6 +8,6 @@ enum enemy_state {
 	move_down,
 	attack,
 	death
-}
+};
 
 enemy_state = enemy_state.idle;
