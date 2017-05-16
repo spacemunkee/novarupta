@@ -1,7 +1,7 @@
 /// check_collisions(_objectid, _dx, _dy, _top_offset, _right_offset, _bottom_offset, _left_offset)
 
-#macro TILE_SIZE	16		// size of debug tilemap
-#macro TILE_SHIFT   4		// 1<<4 = 16
+#macro TILE_SIZE	32		// size of debug tilemap
+#macro TILE_SHIFT   5		// 1<<5 = 32
 
 var _objectid = argument0
 var _dx = argument1

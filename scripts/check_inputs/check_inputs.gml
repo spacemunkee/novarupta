@@ -9,8 +9,9 @@ var key_attack = keyboard_check(vk_space)
 
 
 with(o_player) {
-	if(player_state == state.attack) 
+	if(player_state == state.attack) {
 		return
+	}
 	
 	player_state = state.idle
 	
