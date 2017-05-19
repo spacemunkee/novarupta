@@ -1,8 +1,8 @@
 {
-    "id": "ab55476e-4052-4717-b452-c4a3b14bc36c",
+    "id": "cebf4ce6-de39-4485-96ff-694518daba35",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_door",
+    "name": "o_chest",
     "eventList": [
         
     ],

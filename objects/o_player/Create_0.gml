@@ -19,6 +19,10 @@ enum state {
 	move_left,
 	move_up,
 	move_down,
+	move_up_right,
+	move_up_left,
+	move_down_right,
+	move_down_left,
 	attack,
 	death
 };

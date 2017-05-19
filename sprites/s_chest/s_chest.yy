@@ -2,7 +2,7 @@
     "id": "d4cab3d1-a2de-4f21-84a4-463ce54154c7",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_door",
+    "name": "s_chest",
     "For3D": false,
     "HTile": false,
     "VTile": false,

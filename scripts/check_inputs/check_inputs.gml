@@ -6,6 +6,10 @@ var key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 var key_up = keyboard_check(vk_up) || keyboard_check(ord("W"));
 var key_down = keyboard_check(vk_down) || keyboard_check(ord("S"));
 var key_attack = keyboard_check(vk_space);
+var key_up_right = keyboard_check(vk_up) && keyboard_check(vk_right);
+var key_up_left = keyboard_check(vk_up) && keyboard_check(vk_left);
+var key_down_right = keyboard_check(vk_down) && keyboard_check(vk_right);
+var key_down_left = keyboard_check(vk_down) && keyboard_check(vk_left);
 
 
 with(o_player) {
@@ -30,7 +34,27 @@ with(o_player) {
 	if(key_down) {
 		player_state = state.move_down;
 	} 
+
+	//Diagonal movement
+
+	if(key_up_right) {
+		player_state = state.move_up_right;
+	}
 	
+	if(key_up_left) {
+		player_state = state.move_up_left;
+	}
+
+	if(key_down_right) {
+		player_state = state.move_down_right;
+	}	
+
+	if(key_down_left) {
+		player_state = state.move_down_left;
+	}
+
+	//Attack
+
 	if(key_attack) {
 		player_state = state.attack;
 	}
