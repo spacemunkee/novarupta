@@ -18,3 +18,6 @@ view_camera[0] = camera;
 follow = o_player;
 xTo = x;
 yTo = y;
+
+fade = true;
+box_alpha = 1;

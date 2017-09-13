@@ -6,5 +6,18 @@ if (follow != noone) {
 	yTo = follow.y;
 }
 
+//UPDATES VIEW MATRIX AND APPLYS IT TO THE CAMERA
 var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0);
 camera_set_view_mat(camera,vm);
+
+//FADE CODE
+if fade = true {
+	if box_alpha != 0 {
+		box_alpha -= 0.008;
+	}
+	else {
+		if box_alpha <= 0 {
+			fade = false;
+		}
+	}
+}
