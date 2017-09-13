@@ -13,7 +13,7 @@ camera_set_view_mat(camera,vm);
 //FADE CODE
 if fade = true {
 	if box_alpha != 0 {
-		box_alpha -= 0.008;
+		box_alpha -= 0.008;	//INCREASE THIS NUMBER TO MAKE FADE FASTER
 	}
 	else {
 		if box_alpha <= 0 {
