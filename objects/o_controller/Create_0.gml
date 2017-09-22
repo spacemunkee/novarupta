@@ -1,5 +1,7 @@
 /// @description Initialize the game
 
+game_fullscreen = false;
+
 randomize();
 
 global.collision_map = layer_tilemap_get_id("Collisions");
