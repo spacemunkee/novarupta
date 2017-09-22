@@ -71,23 +71,7 @@ with(_objectid) {
 			return true;
 		}
 	}
-
-	/*
-	if(dir = DIR_UP_RIGHT) {
-		var tx1 = (x + (_right_offset - 4)) >> TILE_SHIFT;
-		var tx2 = (x - (_left_offset - 4)) >> TILE_SHIFT;
-		var ty = (y - _top_offset) >> TILE_SHIFT;
-		
-		var tile1 = tilemap_get(collision_map, tx1, ty) & tile_index_mask;
-		var tile2 = tilemap_get(collision_map, tx2, ty) & tile_index_mask;
-		
-		if(tile1 != 0 || tile2 != 0) {
-			y = (ty << TILE_SHIFT) + TILE_SIZE + _top_offset + 1;
-			x = (tx1 << TILE_SHIFT) - TILE_SIZE + (TILE_SIZE - _right_offset);
-			return true;
-		}
-	}	
-	*/
+	
 }
 
 return false;
