@@ -1,10 +1,11 @@
-//Fullscreen code
+//FULLSCREEN CODE
 if global.game_fullscreen = false {
+	//CHANGES RESOLUTION TO 1920X1080
 	global.game_fullscreen = true;
 	window_set_fullscreen(true);
 
-	screenWidth = display_get_width();
-	screenHeight = display_get_height();
+	screenWidth = 1920;
+	screenHeight = 1080;
 
 	view_wview = screenWidth / 2;
 	view_hview = screenHeight / 2;
@@ -16,6 +17,7 @@ if global.game_fullscreen = false {
 }
 else {
 	if global.game_fullscreen = true {
+		//CHANGES RESOLUTION TO 1280X720
 		global.game_fullscreen = false;
 		window_set_fullscreen(false);
 		
