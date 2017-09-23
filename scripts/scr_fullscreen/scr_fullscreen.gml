@@ -1,6 +1,6 @@
 //Fullscreen code
-if game_fullscreen = false {
-	game_fullscreen = true;
+if global.game_fullscreen = false {
+	global.game_fullscreen = true;
 	window_set_fullscreen(true);
 
 	screenWidth = display_get_width();
@@ -15,8 +15,8 @@ if game_fullscreen = false {
 	surface_resize(application_surface, screenWidth, screenHeight);
 }
 else {
-	if game_fullscreen = true {
-		game_fullscreen = false;
+	if global.game_fullscreen = true {
+		global.game_fullscreen = false;
 		window_set_fullscreen(false);
 		
 		screenWidth = 1280;

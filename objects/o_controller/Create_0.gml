@@ -1,6 +1,8 @@
 /// @description Initialize the game
 
-game_fullscreen = false;
+global.game_fullscreen = false;
+
+script_execute(scr_fullscreen);
 
 randomize();
 

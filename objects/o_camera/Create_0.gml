@@ -15,6 +15,7 @@ view_camera[0] = camera;
 
 /////////////////////////////////////////////
 
+
 follow = o_player;
 xTo = x;
 yTo = y;
