@@ -6,10 +6,9 @@
     "children": [
         "438e7924-1179-449e-948f-a93870c9b79a",
         "9719838f-4dc6-49d0-8736-3aba280efdde",
-        "ce735922-a5d2-41b9-8d29-19fe59486a1e",
-        "e5344fd5-d10a-4c70-9fde-1d6ca24c07ee",
-        "d029b2a2-e8cb-42b9-b38b-a369b6b7bd84",
-        "e00f2fab-aac1-44b6-ac56-c0a775ba798c"
+        "d435949d-5d70-43f2-87a9-a8c5b4294188",
+        "dbc3d26a-03af-4baf-a8a3-c1000434b7d8",
+        "23f8f5cc-82ce-442a-9639-d3783b24d7ad"
     ],
     "filterType": "GMTileSet",
     "folderName": "tilesets",
