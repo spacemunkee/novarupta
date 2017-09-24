@@ -7,7 +7,7 @@
         "cf11cd1c-95d5-48d3-a604-cd15ba86a9fa"
     ],
     "filterType": "GMObject",
-    "folderName": "Coins",
+    "folderName": "Byte",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
