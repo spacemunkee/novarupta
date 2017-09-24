@@ -727,14 +727,6 @@
             }
         },
         {
-            "Key": "e6ce55e0-1ec7-4319-83cc-c90a84373670",
-            "Value": {
-                "id": "2530e4e1-ce14-49b2-8cba-ac2a4ed3aa29",
-                "resourcePath": "objects\\o_text_small\\o_text_small.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "eaf283ce-6505-40e6-9d7f-f81b5314b84e",
             "Value": {
                 "id": "b943e0f4-23bb-4534-8a3d-6005b0ed0dad",
