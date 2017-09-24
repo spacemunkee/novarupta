@@ -2,7 +2,7 @@
 
 global.game_fullscreen = false;
 
-script_execute(scr_fullscreen);
+//script_execute(scr_fullscreen);
 
 randomize();
 

@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "a2c15485-57e3-4551-a3e6-cdb52b3e668a",
+            "Value": {
+                "id": "b5ae0802-3dca-4b69-a134-7b89e171bcbb",
+                "resourcePath": "sprites\\s_byte\\s_byte.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a366b5b8-3e8b-4e22-b541-e3f98bcbea94",
             "Value": {
                 "id": "c4efd9ac-6e2f-4342-948a-259358dc0876",
@@ -610,7 +618,7 @@
             "Key": "cf11cd1c-95d5-48d3-a604-cd15ba86a9fa",
             "Value": {
                 "id": "360ab3bd-9af9-48f2-917e-8ec131402044",
-                "resourcePath": "objects\\o_coin\\o_coin.yy",
+                "resourcePath": "objects\\o_byte\\o_byte.yy",
                 "resourceType": "GMObject"
             }
         },
