@@ -9,3 +9,8 @@ if keyText = true {
 	draw_set_halign(fa_center);
 	draw_text_transformed(view_wport[0]/2,view_hport[0]/2+100,"Press [E] to pick up",1,1,image_angle);
 }	
+
+with(o_camera) {
+	draw_text_transformed(10,40,"CAM X: "+string(cam_x),1,1,image_angle);
+	draw_text_transformed(10,70,"CAM Y: "+string(cam_y),1,1,image_angle);
+}

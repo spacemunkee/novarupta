@@ -1,11 +1,18 @@
 //CREATES CAMERA
 camera = camera_create();
 
+cam_x = 640;
+cam_y = 360;
+
 //CREATES VIEW MATRIX
 var vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0);
 
 //CREATES PROJECTION MATRIX
-var pm = matrix_build_projection_ortho(640,360,1,10000);
+//var pm = matrix_build_projection_ortho(cam_x,cam_y,1,10000);
+pm = matrix_build_projection_ortho(cam_x,cam_y,1,10000);
+
+//PLAYING THE GAME AT 1920X1080 CAMERA RESOLUTION IS VERY COOL. ALMOST LIKE IT'S A LITTLE BOARD GAME!
+//var pm = matrix_build_projection_ortho(1920,1080,1,10000);
 
 //APPLYS MATRIX'S TO THE CAMERA
 camera_set_view_mat(camera,vm);
@@ -22,3 +29,9 @@ yTo = y;
 
 fade = true;
 box_alpha = 1;
+
+zoom = false;
+
+zoom_x = 8;
+
+zoom_y = 4.6;

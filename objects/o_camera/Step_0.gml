@@ -21,3 +21,36 @@ if fade = true {
 		}
 	}
 }
+
+//ZOOM CODE - TEST
+
+if zoom = true {
+	
+	if cam_x != 320 {
+		cam_x -= zoom_x;
+	}
+	
+	if cam_y >= 180 {
+		cam_y -= zoom_y;
+	}
+	
+	pm = matrix_build_projection_ortho(cam_x,cam_y,1,10000);
+	camera_set_proj_mat(camera,pm);
+	
+}
+else {
+	if zoom = false {
+		
+		if cam_x != 640 {
+			cam_x += zoom_x;
+		}
+		
+		if cam_y != 360 {
+			cam_y += zoom_y;
+		}
+		
+		pm = matrix_build_projection_ortho(cam_x,cam_y,1,10000);
+		camera_set_proj_mat(camera,pm);
+		
+	}
+}
