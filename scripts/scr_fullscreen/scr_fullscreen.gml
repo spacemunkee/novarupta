@@ -1,4 +1,5 @@
 //FULLSCREEN CODE
+
 if global.game_fullscreen = false {
 	//CHANGES RESOLUTION TO 1920X1080
 	global.game_fullscreen = true;

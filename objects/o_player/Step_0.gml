@@ -42,4 +42,5 @@ switch(player_state) {
 	case state.attack:
 		player_attack();
 	break;
+
 }
