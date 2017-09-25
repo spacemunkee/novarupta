@@ -33,5 +33,4 @@ box_alpha = 1;
 zoom = false;
 
 zoom_x = 8;
-
 zoom_y = 4.6;
