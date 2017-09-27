@@ -1,12 +1,12 @@
 if distance_to_object(o_player) < 20 {
 	with(o_text) {
-		keyText = true;
+		itemText = true;
 	}
 	
-	//DESTROYS KEY WHEN E IS PRESSED AND STOPS DISPLAYING TEXT
+	//DESTROYS KEY WHEN E IS PRESSED AND STOPS DISPLAYING TEXT - MAY BE MOVED TO A PLAYER STATE
 	if keyboard_check(ord("E")) {
 		with(o_text) {
-			keyText = false;
+			itemText = false;
 		}
 		instance_destroy();
 	}
@@ -14,7 +14,7 @@ if distance_to_object(o_player) < 20 {
 else {
 	if distance_to_object(o_player) > 20 {
 		with(o_text) {
-			keyText = false;
+			itemText = false;
 		}
 	}
 }
