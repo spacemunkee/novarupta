@@ -1,4 +1,6 @@
-//DRAW TEXT HERE
+/// @description Draws text
+
+//FPS COUNTER - JUST FOR DEBUGGING
 draw_set_font(FONT);
 draw_set_halign(fa_left)
 draw_text_transformed(10,10,"FPS: "+string(fps),1,1,image_angle);
@@ -9,7 +11,7 @@ with(o_camera) {
 	draw_text_transformed(10,70,"CAM Y: "+string(cam_y),1,1,image_angle);
 }
 
-
+//DISPLAYS ITEM TEXT WHEN NEAR AN ITEM
 if itemText = true {
 	draw_set_font(FONT_SMALL);
 	draw_set_halign(fa_center);

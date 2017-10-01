@@ -2,8 +2,6 @@
 
 global.game_fullscreen = false;
 
-//script_execute(scr_fullscreen);
-
 randomize();
 
 global.collision_map = layer_tilemap_get_id("Collisions");

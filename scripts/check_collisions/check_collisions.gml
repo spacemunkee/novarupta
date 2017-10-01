@@ -72,6 +72,8 @@ with(_objectid) {
 		}
 	}
 	
+	//DIAGONAL MOVEMENT COLLISION NEEDS DONE
+	
 }
 
 return false;

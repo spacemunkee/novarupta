@@ -1,4 +1,4 @@
-/// handle the player
+/// @description Handles the player states
 
 check_inputs()
 

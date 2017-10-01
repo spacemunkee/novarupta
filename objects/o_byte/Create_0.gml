@@ -1,2 +1,5 @@
+//MAKES THE IMAGE STATIC
 image_speed = 0;
+
+//CHOOSES RANDOM COLOUR
 image_index = choose(1,2,3);

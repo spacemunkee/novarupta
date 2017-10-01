@@ -1,4 +1,4 @@
-/// init player
+/// @description init player
 
 init_globals();
 
